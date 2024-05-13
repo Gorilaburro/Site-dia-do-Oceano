@@ -1,0 +1,44 @@
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #097b9e; /*  background color */
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  } 
+  body {
+    background-image: url(imgs/7a976d8749e34fad7f34d93a44c42d8a.gif);
+    background-color: #2284f5;
+    background-repeat: no-repeat; 
+    background-size: cover; }
+
+    <style>
+.imagem3{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagem3:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+</style>
+
+  

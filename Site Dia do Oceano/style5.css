@@ -1,0 +1,72 @@
+body {
+    background-image: url("imgs/790505ac915716df8c2dc4d4eb42d553.gif");
+    background-color: #2284f5;
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+    .navbar {
+        overflow: hidden; /* Hide overflow */
+        background-color: #097b9e; /*  background color */
+      }
+      
+      /* Style the navigation bar links */
+      .navbar a {
+        float: left; /* Make sure that the links stay side-by-side */
+        display: block; /* Change the display to block, for responsive reasons (see below) */
+        color: white; /* White text color */
+        text-align: center; /* Center the text */
+        padding: 14px 20px; /* Add some padding */
+        text-decoration: none; /* Remove underline */
+      }
+      
+      /* Right-aligned link */
+      .navbar a.right {
+        float: right; /* Float a link to the right */
+      }
+      
+      /* Change color on hover/mouse-over */
+      .navbar a:hover {
+        background-color: #ddd; /* Grey background color */
+        color: black; /* Black text color */
+      } 
+    } 
+
+    .button {
+        font-family:Arial, Helvetica, sans-serif;
+        
+        font-size:18px;
+        
+        border-radius:4px;
+        
+        padding-left:10px;
+        
+        padding-right:10px;
+        
+        padding-top:5px;
+        
+        padding-bottom:5px;
+        
+        color:#ffffff;
+        
+        background-color:#37bf0d;
+        
+        outline:none;
+        
+        border:none;
+        
+        cursor:pointer;
+        
+        display:inline-block;
+        
+        text-decoration: none;
+        
+        transition: .4s;
+        
+        }
+        
+        .button:hover {
+        color:#ffffff;
+        
+        background-color:#414141;
+        
+        }
